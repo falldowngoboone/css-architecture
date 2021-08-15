@@ -1,0 +1,10 @@
+// override.scss
+
+// This layer is optional. Theme could be located with the base styles as a
+// simple list of CSS custom properties. Utilities could be completely ommited
+// with efficient use of Objects CSS and custom properties.
+
+// The styles in here should be the very last in the cascade, making them the
+// most specific, all other things considered.
+@use 'theme/_all' as theme;
+@use 'utility/_all' as utility;

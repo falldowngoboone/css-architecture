@@ -1,0 +1,5 @@
+// Since pages will inevitably require different vendor libraries, vendor files
+// work best as page-specific. You can either import vendor files directly into
+// the page stylesheet or break them out into a separate file as I have done
+// here.
+@use 'vendor/some-vendor-file';

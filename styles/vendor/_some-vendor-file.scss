@@ -1,0 +1,9 @@
+// vendor CSS
+
+// Since vendors typically provide an expanded and a compressed version of their
+// styles, I would recommend using the expanded/uncompressed version here. Sass
+// will take care of the compression for you and you will be able to easily
+// debug styles in here to override in your _hacks file. Just make sure you
+// change the extension to `.scss`.
+//
+// These styles should NEVER be modified directly. Use the cascade to do that.

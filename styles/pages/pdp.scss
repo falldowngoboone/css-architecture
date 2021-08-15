@@ -1,0 +1,16 @@
+// pdp.scss
+
+// This is where PDP-specific styles live. These types of files will be made
+// mostly of components.
+
+// Note I can directly reference directories outside of this one thanks to the
+// `--load-path=path/to/styles` setting in my `build` script. If you don't do
+// that, you would have to refer to them relatively (`../components/...`).
+// Ain't nobody got time for that.
+
+// See https://sass-lang.com/documentation/cli/dart-sass#load-path
+@use 'components/image-gallery';
+@use 'components/tabs';
+@use 'components/accordion';
+@use './pdp/vendor';
+@use './pdp/hacks';
