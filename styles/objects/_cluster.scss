@@ -1,0 +1,6 @@
+.o-cluster {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: var(--cluster-y-gap, 1em);
+  column-gap: var(--cluster-x-gap, 1em);
+}

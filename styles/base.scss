@@ -1,16 +1,8 @@
 // base.scss
 
-// We have to alias (`as`) because Sass defaults to the file name for
-// namespacing and these entry files have the same name (`__all.scss`).
-
-// We could use different names, but this establishes a common naming
-// convention.
-@use 'settings/_all' as settings;
-@use 'tools/_all' as tools;
-@use 'generic/_all' as generic;
-@use 'elements/_all' as elements;
-@use 'objects/_all' as objects;
-
-// Named `__global.scss` and not `__all.scss` because this only contains global
-// components (e.g. navigation, footer, breadcrumbs, etc.)
-@use 'components/_global' as components;
+@use 'generic/reset';
+@use 'elements/lists';
+@use 'objects/cluster';
+@use 'objects/media';
+@use 'objects/stack';
+@use 'components/common';
